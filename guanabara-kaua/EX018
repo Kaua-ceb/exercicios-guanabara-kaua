@@ -1,0 +1,10 @@
+EX018
+import math 
+angu1 = int(input("digite o primeiro angulo: "))
+angulos_radianos = math.radians(angu1)
+seno = math.sin(angulos_radianos)
+cosseno = math.cos(angulos_radianos)
+tangente = math.tan(angulos_radianos)
+print(f"o seno do seu angulo é: {seno:2f}")
+print(f"o cosseno do seu angulo é {cosseno:2f}")
+print(f"o tangente do seu angulo é {tangente:2f}")
