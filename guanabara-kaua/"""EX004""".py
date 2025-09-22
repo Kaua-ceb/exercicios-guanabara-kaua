@@ -1,0 +1,20 @@
+"""EX004"""
+
+#palavra = input("digite algo: ")
+#print(palavra.isspace)
+#print(palavra.isnumeric())
+#print(palavra.isalpha())
+#print(palavra.isalnum())
+#print(palavra.isupper())
+#print(palavra.islower())
+#print(palavra.istitle())
+
+palavra = input("digite algo: ")
+print(f"o tipo primitivo desse valor é {type(palavra)}")
+print(f"só tem espaços ? {palavra.isspace()}")
+print(f"é um número ? {palavra.isnumeric()}")
+print(f"é alfabético ? {palavra.isalpha()}")
+print(f"é alfanumérico ? {palavra.isalnum()}")
+print(f"está em maiusculas ? {palavra.isupper()}")
+print(f"está em minúsculas ? {palavra.islower()}")
+print(f"está capitalizada ? {palavra.istitle()}")
